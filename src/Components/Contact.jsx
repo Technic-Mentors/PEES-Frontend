@@ -1,6 +1,80 @@
-import React from 'react'
+import {React, useEffect, useRef, useState} from 'react'
+import AOS from "aos";
+import emailjs from "emailjs-com";
+
 
 function Contact() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
+  const [successMessage, setSuccessMessage] = useState("");
+  const formRef = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    const form = formRef.current;
+    const name = form.name.value.trim();
+    const email = form.email.value.trim();
+    const subject = form.subject.value.trim();
+    const message = form.message.value.trim();
+
+    const nameI = document.getElementById("nameI");
+    const emailI = document.getElementById("emailI");
+    const subjectI = document.getElementById("subjectI");
+    const messageI = document.getElementById("messageI");
+
+    let hasError = false;
+
+    if (!name) {
+      nameI.innerText = "Please fill this field ";
+      hasError = true;
+    } else {
+      nameI.innerText = "";
+    }
+
+    if (!email) {
+      emailI.innerText = "Please fill this field ";
+      hasError = true;
+    } else {
+      emailI.innerText = "";
+    }
+
+    if (!subject) {
+      subjectI.innerText = "Please fill this field ";
+      hasError = true;
+    } else {
+      subjectI.innerText = "";
+    }
+
+    if (!message) {
+      messageI.innerText = "Please fill this field ";
+      hasError = true;
+    } else {
+      messageI.innerText = "";
+    }
+
+    if (hasError) {
+      return;
+    }
+
+    emailjs
+      .sendForm(
+        "service_9x25qjf",
+        "template_wev39ct",
+        formRef.current,
+        "ZFbDufHGULjHKZGqF"
+      )
+
+      .then((response) => {
+        formRef.current.reset();
+        setSuccessMessage("Your Message Is Sent Successfully");
+        setTimeout(() => {
+          setSuccessMessage("");
+        }, 3000);
+      });
+  };
+
   return (
     <div>
       <section className="inner-page-header">
@@ -24,15 +98,15 @@ function Contact() {
             <div className="row d-flex justify-content-center align-items-center">
               <div className="col-md-8">
               <div className="contact-title text-center">
-              <h2 className='regular-heading mb-3'>Have Questions or Ready to Get Started? Reach Out to Us Below!</h2>
-              <p className='mb-3'>Fill out the form below, and one of our representatives will be in touch shortly to assist you with your solar needs.</p>
+              <h2 className='regular-heading mb-3' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Have Questions or Ready to Get Started? Reach Out to Us Below!</h2>
+              <p className='mb-3' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Fill out the form below, and one of our representatives will be in touch shortly to assist you with your solar needs.</p>
               </div>
               </div>
             </div>
           
-            <div className="col-md-7">
+            <div className="col-md-7" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
             <div class="row input-container">
-			<div class="col-xs-12">
+			<div class="col-xs-12" onSubmit={sendEmail}>
 				<div class="styled-input wide">
 					<input type="text" required />
 					<label>Name</label> 
@@ -62,7 +136,7 @@ function Contact() {
 	</div>
             </div>
 
-            <div className="col-md-5">
+            <div className="col-md-5" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1200">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d864479.7390796565!2d73.03124464687497!3d32.1806728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f290aaac0bc1d%3A0x5fe9f2902e3ba73b!2sTechnic%20Mentors!5e0!3m2!1sen!2s!4v1713428295002!5m2!1sen!2s" width="500" height="450" style={{border:"0"}} title='Location' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>

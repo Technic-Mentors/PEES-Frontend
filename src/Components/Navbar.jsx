@@ -98,6 +98,7 @@
 
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import LOGO from '../Assets/Images/LOGO.png'
 
 function Navbar() {
   const location = useLocation();
@@ -117,10 +118,10 @@ function Navbar() {
 
   return (
     <div>
-      <nav className="navbar go-solar-nav px-4 py-1 navbar-expand-lg navbar-light">
+      <nav className="navbar go-solar-nav px-4 py-2 navbar-expand-lg navbar-light">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/" onClick={closeNavbar}>
-            {/* <img src={LOGOWhite} alt="logo" /> */} <h1>GoSolar</h1>
+            <img src={LOGO} alt="logo" className='img-fluid site-logo' />
           </Link>
           <button
             className={`navbar-toggler ${collapsed ? '' : 'collapsed'}`}

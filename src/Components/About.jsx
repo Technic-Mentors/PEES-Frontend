@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import {React, useState, useEffect} from 'react'
 import { Link } from 'react-router-dom'
 import About1 from '../Assets/Images/about-us-img-1.avif'
 import About2 from '../Assets/Images/about-us-img-2.avif'
@@ -6,8 +6,14 @@ import TrackChangesIcon from '@mui/icons-material/TrackChanges';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import VerifiedIcon from '@mui/icons-material/Verified';
 import Testimonials from './Testimonials'
+import AOS from "aos";
+
 
 function About() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
 
   const [openAccordion, setOpenAccordion] = useState(null);
 
@@ -35,13 +41,13 @@ function About() {
         <div className="container py-5">
           <div className="row g-5 d-flex align-items-center">
             <div className="col-md-7">
-              <h5 className="subtitle">Leading The Solar Revolution</h5>
-              <h2 className="site-heading">
+              <h5 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Leading The Solar Revolution</h5>
+              <h2 className="site-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 We Brighten Your Future!
               </h2>
-              <p>As pioneers in sustainable energy solutions, we are dedicated to illuminating the path towards a brighter, cleaner future. With a focus on innovation and environmental stewardship, we specialize in designing and implementing cutting-edge solar installations for homes, businesses, and communities. <br /><br />Our passion for renewable energy drives us to deliver reliable, cost-effective solutions that not only reduce carbon footprints but also empower our customers to take control of their energy needs. Join us in harnessing the power of the sun and shaping a sustainable tomorrow for generations to come.</p> <br />
+              <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">As pioneers in sustainable energy solutions, we are dedicated to illuminating the path towards a brighter, cleaner future. With a focus on innovation and environmental stewardship, we specialize in designing and implementing cutting-edge solar installations for homes, businesses, and communities. <br /><br />Our passion for renewable energy drives us to deliver reliable, cost-effective solutions that not only reduce carbon footprints but also empower our customers to take control of their energy needs. Join us in harnessing the power of the sun and shaping a sustainable tomorrow for generations to come.</p> <br />
               <div className="row">
-                <div className="col-md-6 col-12">
+                <div className="col-md-6 col-12" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className='d-flex stat-content'>
                   <i class="fa-solid fa-lightbulb stat-icon fa-3x"></i>&nbsp;
                 <h5 className='fw-bold'>Innovative Technology</h5>
@@ -53,7 +59,7 @@ function About() {
                   </li>
                 </ul>
                 </div>
-                <div className="col-md-6 col-12  align-items-center">
+                <div className="col-md-6 col-12  align-items-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className='d-flex align-items-center stat-content'>
                   <i class="fa-solid fa-lightbulb stat-icon fa-3x"></i>&nbsp;
                 <h5 className='fw-bold'>Dedicated Support</h5>
@@ -66,8 +72,8 @@ function About() {
             </div>
             <div className="col-md-5">
               <div className="about-images">
-                <img src={About1} alt="" className="img-fluid about-img-1" />
-                <img src={About2} alt="" className="img-fluid about-img-2" />
+                <img src={About1} alt="" className="img-fluid about-img-1" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1200"/>
+                <img src={About2} alt="" className="img-fluid about-img-2" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1200"/>
               </div>
             </div>
           </div>
@@ -77,7 +83,7 @@ function About() {
       <section className="mission-vision" style={{backgroundColor: '#f1f3fb'}}>
         <div className="container">
           <div className="row">
-            <div className="col-md-4 mv-card">
+            <div className="col-md-4 mv-card" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
               <div className="card company-card">
               <div className="feature-icon-box">
                 <div className="d-flex justify-content-center">
@@ -95,7 +101,7 @@ function About() {
               
             </div>
 
-            <div className="col-md-4 mv-card">
+            <div className="col-md-4 mv-card" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1200">
               <div className="card company-card">
               <div className="feature-icon-box">
                 <div className="d-flex justify-content-center">
@@ -113,7 +119,7 @@ function About() {
               
             </div>
 
-            <div className="col-md-4 mv-card">
+            <div className="col-md-4 mv-card" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1200">
               <div className="card company-card">
               <div className="feature-icon-box">
                 <div className="d-flex justify-content-center">
@@ -141,11 +147,11 @@ function About() {
               <div className="overlay">
                 <div className="p-5">
                   <div className="section-header mb-4">
-                    <h6 className='subtitle text-white'>Uncover Solar Solutions</h6>
-                    <h2 className="site-heading text-white">Unlocking Solar's Potential For Your Home Or Business</h2><br />
-                    <p className='text-white'>Unlock the potential of solar energy and its transformative benefits. Explore common questions about solar system installation and its advantages below.</p>
+                    <h6 className='subtitle text-white' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Uncover Solar Solutions</h6>
+                    <h2 className="site-heading text-white" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Unlocking Solar's Potential For Your Home Or Business</h2><br />
+                    <p className='text-white' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Unlock the potential of solar energy and its transformative benefits. Explore common questions about solar system installation and its advantages below.</p>
                   </div>
-                  <div className="accordion" id="accordionPanelsStayOpenExample">
+                  <div className="accordion" id="accordionPanelsStayOpenExample" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                     <div className={`accordion-item ${openAccordion === "One" ? "show" : ""}`}>
                       <h2 className="accordion-header" id="panelsStayOpen-headingTwo">
                         <button
@@ -234,7 +240,7 @@ function About() {
                     
                   </div>
                   <Link to="/contact">
-                    <button className="website-button mt-4 mb-4">Convert To Solar System</button>
+                    <button className="website-button mt-4 mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Convert To Solar System</button>
                   </Link>
                 </div>
               </div>

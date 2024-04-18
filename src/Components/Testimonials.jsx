@@ -35,13 +35,13 @@ export default function Testimonial() {
             className="text-center mx-auto"
             style={{ maxWidth: "600px" }}
           >
-            <h2 className="site-heading">
+            <h2 className="site-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               What Our Clients Say!
             </h2>
           </div>
           <div>
             <div>
-              <div className="container test-container">
+              <div className="container test-container" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="testimonial-carouse">
                   <Slider {...settings} className="testimonial-carousel">
                     <div className="col-md-12 ">

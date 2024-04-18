@@ -1,9 +1,17 @@
-import React from "react";
+import {React, useEffect} from "react";
 import AgriculturalSolutions from "../Assets/Images/agricultural-solar-services.avif";
 import AgriculturalSolarTubeWell from '../Assets/Images/agriculture-solar-tubewell.avif'
 import CTA from "./CTA";
+import AOS from "aos";
+
 
 function Agriculturalsolar() {
+
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div>
       <section className="inner-page-header">
@@ -25,11 +33,11 @@ function Agriculturalsolar() {
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-9 text-center">
-              <h6 className="subtitle ">Explore Our</h6>
-              <h2 className="site-heading mb-3 ">
+              <h6 className="subtitle " data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Explore Our</h6>
+              <h2 className="site-heading mb-3 " data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Agricultural Solar Solutions
               </h2>
-              <p style={{ textAlign: "left" }}>
+              <p style={{ textAlign: "left" }} data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 The agricultural sector plays a vital role in Pakistan's
                 economy, contributing approximately 23% to the GDP. This sector
                 relies heavily on key crops such as wheat, rice, and cotton, as
@@ -64,10 +72,10 @@ function Agriculturalsolar() {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-md-6">
-              <h2 className="regular-heading mb-3">
+              <h2 className="regular-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Solar Tube Well Systems: Dependable And Sustainable
               </h2>
-              <p>
+              <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Addressing water scarcity and the exorbitant costs associated
                 with diesel and petrol for groundwater extraction poses a
                 significant challenge for farmers in maintaining adequate
@@ -88,7 +96,7 @@ function Agriculturalsolar() {
               </p>
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <img
                 src={AgriculturalSolutions}
                 alt="clean-commercial-solar-solutions"
@@ -105,7 +113,7 @@ function Agriculturalsolar() {
       >
         <div className="container">
           <div className="row d-flex align-items-center">
-          <div className="col-md-6">
+          <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <img
                 src={AgriculturalSolarTubeWell}
                 alt="clean-commercial-solar-solutions"
@@ -113,10 +121,10 @@ function Agriculturalsolar() {
               />
             </div>
             <div className="col-md-6">
-              <h2 className="regular-heading mb-3">
+              <h2 className="regular-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               Farm-Based Solar PV Solutions
               </h2>
-              <p>
+              <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               We offer sustainable and cost-effective electric solutions for all types of farms, including dairy, fish, and poultry farms. Our solar solutions for farms can save up to 70% on electricity bills. Customer satisfaction is our top priority, and that's why our clients report achieving Return on Investment (ROI) in just 4-5 years.
                 <br />
                 <br />

@@ -32,7 +32,7 @@ function Home() {
         {/* <Navhome /> */}
         <div className="container ">
           <div className="row  d-flex align-items-center ">
-            <div className="col-md-6 py-6">
+            <div className="col-md-6 py-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <h2 className="site-heading">
                 Power Your Future With Limitless Solar Energy
               </h2>
@@ -77,26 +77,26 @@ function Home() {
         <div className="container">
           <div className="row d-flex justify-content-center align-items-center">
             <div className="col-md-6 py-5">
-            <h5 className="subtitle mb-2">Who We Are</h5>
-              <h2 className="regular-heading">
+            <h5 className="subtitle mb-2" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Who We Are</h5>
+              <h2 className="regular-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Empowering Communities, Building a Sustainable Future
               </h2>
-              <p>
+              <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Step into the future with GoSolar, where solar innovation meets
                 sustainable living. We're not just a solar company; we're the
                 architects of a greener tomorrow. Join us in redefining energy
                 solutions for a world that demands both progress and
                 preservation.
               </p>
-              <img src={About} alt="" className="img-fluid mb-4" />
-              <Link to="/contact">
+              <img src={About} alt="" className="img-fluid mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200"/>
+              <Link to="/contact" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <button className="website-button">Go Solar Today</button>
               </Link>
             </div>
 
             <div className="col-md-6">
               <div className="row">
-                <div className="col-md-6 h-about">
+                <div className="col-md-6 h-about" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -107,7 +107,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 h-about">
+                <div className="col-md-6 h-about" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -126,7 +126,7 @@ function Home() {
                 </div>
               </div>
               <div className="row mt-3">
-                <div className="col-md-6 h-about">
+                <div className="col-md-6 h-about" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -137,7 +137,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 h-about">
+                <div className="col-md-6 h-about" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -159,12 +159,12 @@ function Home() {
           <div className="container">
             <div className="row d-flex justify-content-center">
               <div className="col-md-7 text-center">
-                <h5 className="subtitle">Empower, Energize, Sustain</h5>
-                <h2 className="regular-heading mb-4">Empowering Solutions for Every Sector, Explore Our Diverse Services</h2>
+                <h5 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Empower, Energize, Sustain</h5>
+                <h2 className="regular-heading mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Empowering Solutions for Every Sector, Explore Our Diverse Services</h2>
               </div>
             </div>
             <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-md-3">
+              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                     <Link to="/industrial-solar">
@@ -176,7 +176,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                   <Link to="/commercial-solar">
@@ -188,7 +188,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                     <Link to="/residential-content">
@@ -200,7 +200,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                     <Link to="/agricultural-solar"> 
@@ -222,12 +222,12 @@ function Home() {
         <div className="container py-5">
           <div className="row">
             <div className="col-md-6">
-              <h5 className="subtitle">
+              <h5 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               Count on Us Day or Night
               </h5>
-              <h2 className="regular-heading mb-3">Don't Let Energy Concerns Keep You In The Dark</h2>
-              <p className="mb-4 text-white">From sudden outages to questions about efficiency, we understand the frustrations that can arise with traditional energy sources. Our 24/7 support team ensures that you never feel alone in navigating these challenges. Reach out anytime for expert guidance and reliable solutions to keep your energy worries at bay.</p>
-              <Link to="get-a-quote"><button className="website-button" style={{backgroundColor: 'var(--secondary-color)'}}>Get A Quote</button></Link>
+              <h2 className="regular-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Don't Let Energy Concerns Keep You In The Dark</h2>
+              <p className="mb-4 text-white" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">From sudden outages to questions about efficiency, we understand the frustrations that can arise with traditional energy sources. Our 24/7 support team ensures that you never feel alone in navigating these challenges. Reach out anytime for expert guidance and reliable solutions to keep your energy worries at bay.</p>
+              <Link to="/contact"><button className="website-button" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200" style={{backgroundColor: 'var(--secondary-color)'}}>Get A Quote</button></Link>
             </div>
           </div>
         </div>
@@ -237,7 +237,7 @@ function Home() {
       <section className="stats py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-3">
+            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-regular fa-handshake stat-icon fa-2x n mb-2"></i>
               <h2 className="site-heading">325</h2>
@@ -245,7 +245,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-solid fa-truck-fast stat-icon fa-2x "></i>
               <h2 className="site-heading">250</h2>
@@ -253,7 +253,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-solid fa-face-smile stat-icon fa-2x "></i>
               <h2 className="site-heading">1000</h2>
@@ -261,7 +261,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-md-3">
+            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-solid fa-briefcase stat-icon  fa-2x mb-2"></i>
               <h2 className="site-heading">20</h2>
@@ -272,34 +272,8 @@ function Home() {
         </div>
       </section>
 
+<Testimonials />
 
-
-
-
-      {/* <section className="why-choose-solar">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-4">
-              <div className="icon-box">
-
-              </div>
-            </div>
-
-            <div className="col-md-4">
-              
-            </div>
-
-            <div className="col-md-4">
-              
-            </div>
-          </div>
-        </div>
-      </section> */}
-
-
-      <Testimonials />
-
- 
     </div>
   );
 }
