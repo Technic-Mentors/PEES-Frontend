@@ -102,7 +102,7 @@ import { Link, useLocation } from 'react-router-dom';
 function Navbar() {
   const location = useLocation();
   const [collapsed, setCollapsed] = useState(true);
-  const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
+  // const [servicesDropdownOpen, setServicesDropdownOpen] = useState(false);
 
   const toggleNavbar = () => setCollapsed(!collapsed);
   const closeNavbar = () => setCollapsed(true);
@@ -111,9 +111,9 @@ function Navbar() {
     return location.pathname === link ? 'active' : '';
   };
 
-  const toggleServicesDropdown = () => {
-    setServicesDropdownOpen(!servicesDropdownOpen);
-  };
+  // const toggleServicesDropdown = () => {
+  //   setServicesDropdownOpen(!servicesDropdownOpen);
+  // };
 
   return (
     <div>
@@ -135,7 +135,7 @@ function Navbar() {
             <span className="navbar-toggler-icon text-light"></span>
           </button>
           <div className={`collapse navbar-collapse ${collapsed ? '' : 'show'}`} id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto mb-2 mb-lg-0" onClick={closeNavbar}>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" onClick={closeNavbar}>
               
               <li className="nav-item">
                 <Link className={`nav-link active ${activeLink('/')}`} aria-current="page" to="/">
@@ -144,7 +144,7 @@ function Navbar() {
               </li>
               
               <li className="nav-item">
-                <Link className={`nav-link ${activeLink('/about-company')}`} to="/about-company">
+                <Link className={`nav-link ${activeLink('/about-company')}`} to="/our-company">
                   Company
                 </Link>
               </li>
@@ -165,7 +165,7 @@ function Navbar() {
                     </Link>
                   </li>
                   <li className='nav-item'>
-                    <Link className={`nav-link ${activeLink('/agricultural-solar')}`} to="/agricultral-solar">
+                    <Link className={`nav-link ${activeLink('/agricultural-solar')}`} to="/agricultural-solar">
                       Agricultural Solar
                     </Link>
                   </li>
@@ -176,13 +176,13 @@ function Navbar() {
                   Contact
                 </Link>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link className={`nav-link ${activeLink('/get-a-quote')}`} to="/get-a-quote">
                   Get A Quote
                 </Link>
-              </li>
+              </li> */}
             </ul>
-            <div className="d-flex text-light align-items-center">
+            <div className="d-flex text-dark align-items-center">
               <i className="me-2 fab fa-facebook"></i>
               <i className="me-2 fab fa-twitter"></i>
               <i className="fab fa-instagram"></i>

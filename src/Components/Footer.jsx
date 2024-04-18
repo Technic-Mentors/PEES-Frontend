@@ -1,87 +1,70 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <div>
-<footer className="text-center text-lg-start bg-body-tertiary text-muted">
+<footer className=" text-lg-start bg-body-tertiary text-white" style={{backgroundColor: 'var(--secondary-color)'}}>
   <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     <div className="me-5 d-none d-lg-block">
       <span>Get connected with us on social networks:</span>
     </div>
     
     <div>
-      <a href="" className="me-4 text-reset">
+      <a href="/#" className="me-4 text-reset">
         <i className="fab fa-facebook-f"></i>
       </a>
-      <a href="" className="me-4 text-reset">
+      <a href="/#" className="me-4 text-reset">
         <i className="fab fa-twitter"></i>
       </a>
-      <a href="" className="me-4 text-reset">
+      <a href="/#" className="me-4 text-reset">
         <i className="fab fa-google"></i>
       </a>
-      <a href="" className="me-4 text-reset">
+      <a href="/#" className="me-4 text-reset">
         <i className="fab fa-instagram"></i>
       </a>
-      <a href="" className="me-4 text-reset">
+      <a href="/#" className="me-4 text-reset">
         <i className="fab fa-linkedin"></i>
       </a>
-      <a href="" className="me-4 text-reset">
+      <a href="/#" className="me-4 text-reset">
         <i className="fab fa-github"></i>
       </a>
     </div>
   </section>
 
   <section className="">
-    <div className="container text-center text-md-start mt-5">
+    <div className="container text-md-start mt-5">
       <div className="row mt-3">
-        <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <div className="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4">
           
           <h6 className="text-uppercase fw-bold mb-4">
-            <i className="fas fa-gem me-3"></i>Company name
+            <i className="fas fa-gem me-3"></i>PEES Solar
           </h6>
           <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
+          As pioneers in sustainable energy solutions, we are dedicated to illuminating the path towards a brighter, cleaner future. 
           </p>
         </div>
         
-        <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <div className="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
           
           <h6 className="text-uppercase fw-bold mb-4">
-            Products
+            Services
           </h6>
           <p>
-            <a href="#!" className="text-reset">Angular</a>
+            <Link to="/industrial-solar" className="text-reset">Industrial Solar Solutions</Link>
           </p>
           <p>
-            <a href="#!" className="text-reset">React</a>
+            <Link to="/commercial-solar" className="text-reset">Commercial Social Solutions</Link>
           </p>
           <p>
-            <a href="#!" className="text-reset">Vue</a>
+            <Link to="/residential-solar" className="text-reset">Residential Solar Solutions</Link>
           </p>
           <p>
-            <a href="#!" className="text-reset">Laravel</a>
+            <Link to="/agricultural-solar" className="text-reset">Agricultural Solar Solutions</Link>
           </p>
         </div>
        
-        <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          
-          <h6 className="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" className="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" className="text-reset">Help</a>
-          </p>
-        </div>
+        
         
 
         
@@ -103,8 +86,8 @@ function Footer() {
   </section>
  
   <div className="text-center p-4" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
-    © 2021 Copyright:
-    <a className="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    © 2021 Copyright: <br /> Developed With Love By&nbsp;
+    <a className="text-reset fw-bold" href="https://technicmentors.com/" style={{textDecoration: 'none'}}>Technic Mentors</a>
   </div>
   
 </footer>

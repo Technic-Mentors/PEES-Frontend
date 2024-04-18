@@ -7,9 +7,21 @@ import ElectricMeterIcon from "@mui/icons-material/ElectricMeter";
 import Industrialsolution from '../Assets/Images/industrial-solar-solution.avif' 
 import Commercialsolution from '../Assets/Images/commercial-solar-solutions.avif' 
 import Resdentialsolution from '../Assets/Images/residential-solar-solutions.avif' 
-import Agriculturalsolution from '../Assets/Images/agricultural-solar-solutions.avif' 
+import Agriculturalsolution from '../Assets/Images/agricultural-solar-solutions.avif'
+// import Slider from "react-slick"; 
+import Testimonials from "./Testimonials";
 
 function Home() {
+
+  // var settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  // };
+
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -84,7 +96,7 @@ function Home() {
 
             <div className="col-md-6">
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 h-about">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -95,7 +107,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 h-about">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -114,7 +126,7 @@ function Home() {
                 </div>
               </div>
               <div className="row mt-3">
-                <div className="col-md-6">
+                <div className="col-md-6 h-about">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -125,7 +137,7 @@ function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 h-about">
                   <div className="card about-card">
                     <div className="card-body text-center">
                       <div className="icon-box">
@@ -259,6 +271,33 @@ function Home() {
           </div>
         </div>
       </section>
+
+
+
+
+
+      {/* <section className="why-choose-solar">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="icon-box">
+
+              </div>
+            </div>
+
+            <div className="col-md-4">
+              
+            </div>
+
+            <div className="col-md-4">
+              
+            </div>
+          </div>
+        </div>
+      </section> */}
+
+
+      <Testimonials />
 
  
     </div>
