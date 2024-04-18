@@ -1,4 +1,4 @@
-import {React, useEffect, useRef, useState} from 'react'
+import {React, useEffect, useRef} from 'react'
 import AOS from "aos";
 import emailjs from "emailjs-com";
 
@@ -9,7 +9,7 @@ function Contact() {
     AOS.init();
   }, []);
 
-  const [successMessage, setSuccessMessage] = useState("");
+  // const [successMessage, setSuccessMessage] = useState("");
   const formRef = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -66,13 +66,13 @@ function Contact() {
         "ZFbDufHGULjHKZGqF"
       )
 
-      .then((response) => {
-        formRef.current.reset();
-        setSuccessMessage("Your Message Is Sent Successfully");
-        setTimeout(() => {
-          setSuccessMessage("");
-        }, 3000);
-      });
+      // .then((response) => {
+      //   formRef.current.reset();
+      //   setSuccessMessage("Your Message Is Sent Successfully");
+      //   setTimeout(() => {
+      //     setSuccessMessage("");
+      //   }, 3000);
+      // });
   };
 
   return (
