@@ -98,6 +98,7 @@ function Contact() {
             <div className="row d-flex justify-content-center align-items-center">
               <div className="col-md-8">
               <div className="contact-title text-center">
+                <h6 className="subtitle">Contact Us</h6>
               <h2 className='regular-heading mb-3' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Have Questions or Ready to Get Started? Reach Out to Us Below!</h2>
               <p className='mb-3' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Fill out the form below, and one of our representatives will be in touch shortly to assist you with your solar needs.</p>
               </div>
@@ -105,7 +106,7 @@ function Contact() {
             </div>
           
             <div className="col-md-7" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1200">
-            <div class="row input-container">
+            <div class="row d-flex input-container align-items-center">
 			<div class="col-xs-12" onSubmit={sendEmail}>
 				<div class="styled-input wide">
 					<input type="text" required />

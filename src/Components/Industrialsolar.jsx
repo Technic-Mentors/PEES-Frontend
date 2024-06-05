@@ -37,9 +37,9 @@ function Industrialsolar() {
           <div className="row d-flex align-items-center">
             <div className="col-md-6">
               <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Explore Our</h6>
-              <h2 className="site-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Industrial Solar Solutions</h2>
+              <h2 className="regular-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Industrial Solar Solutions</h2>
               <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Welcome to our Industrial Solar Services, where we specialize in tailored solar solutions for industrial businesses. Our team is dedicated to optimizing energy usage, reducing costs, and enhancing sustainability through innovative solar technology. With a focus on customized design and installation, we work closely with each client to maximize efficiency and savings.<br /> From offsetting energy costs to enhancing resilience, we're here to guide you through every step of the process. Join us in embracing solar energy and shaping a brighter, greener future for your industrial facility.</p>
-              <Link to="/industrial-solar"><button className="website-button" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Contact Us</button></Link>
+              <Link to="/industrial-solar"><button className="website-button mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Contact Us</button></Link>
             </div>
 
             <div className="col-md-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
@@ -54,10 +54,10 @@ function Industrialsolar() {
           <div className="row d-flex justify-content-center">
             <div className="col-md-8 text-center">
               <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Compelling Perks</h6>
-              <h2 className="site-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">What Do You Get From Our Industrial Solar Solutions </h2>
+              <h2 className="regular-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">What Do You Get From Our Industrial Solar Solutions </h2>
             </div>
           </div>
-          <div className="row d-flex justify-content-center align-items-center">
+          <div className="row mt-4 d-flex justify-content-center align-items-center">
             <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="feature-content text-center">
                 <img src={customDesign} alt="" className="img-fluid" /><br /><br />
@@ -98,7 +98,7 @@ function Industrialsolar() {
           <div className="row g-5 d-flex align-items-center">
             <div className="col-md-6">
               <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Why Choose Us</h6>
-              <h2 className="site-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+              <h2 className="regular-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Compelling Reasons To Choose Us!
               </h2><br />
               <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">With a proven track record of industrial solar installations, we bring expertise and reliability to every project. Our commitment to custom solutions ensures that your industrial solar system meets your unique needs and goals.</p><br /><hr />

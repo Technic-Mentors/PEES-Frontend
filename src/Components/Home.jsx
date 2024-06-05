@@ -31,8 +31,8 @@ function Home() {
       <section className="header-section">
         {/* <Navhome /> */}
         <div className="container ">
-          <div className="row  d-flex align-items-center ">
-            <div className="col-md-6 py-6" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+          <div className="row p-2  d-flex align-items-center ">
+            <div className="col-md-6 py-9 pb-5" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <h2 className="site-heading">
                 Power Your Future With Limitless Solar Energy
               </h2>
@@ -65,7 +65,7 @@ function Home() {
                   24/7 Customer Support: +92300 12 34 567
                 </p>
               </div>
-              <Link>
+              <Link to='/contact'>
                 <button className="website-button">Get A Quote</button>
               </Link>
             </div>
@@ -82,7 +82,7 @@ function Home() {
                 Empowering Communities, Building a Sustainable Future
               </h2>
               <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
-                Step into the future with GoSolar, where solar innovation meets
+                Step into the future with PEES Solar, where solar innovation meets
                 sustainable living. We're not just a solar company; we're the
                 architects of a greener tomorrow. Join us in redefining energy
                 solutions for a world that demands both progress and
@@ -164,7 +164,7 @@ function Home() {
               </div>
             </div>
             <div className="row d-flex justify-content-center align-items-center">
-              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+              <div className="col-md-3 mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                     <Link to="/industrial-solar">
@@ -176,7 +176,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+              <div className="col-md-3 mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                   <Link to="/commercial-solar">
@@ -188,7 +188,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+              <div className="col-md-3 mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                     <Link to="/residential-content">
@@ -200,7 +200,7 @@ function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+              <div className="col-md-3 mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 <div className="card service-card">
                   <div className="card-content">
                     <Link to="/agricultural-solar"> 
@@ -237,7 +237,7 @@ function Home() {
       <section className="stats py-5">
         <div className="container">
           <div className="row">
-            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+            <div className="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-regular fa-handshake stat-icon fa-2x n mb-2"></i>
               <h2 className="site-heading">325</h2>
@@ -245,7 +245,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+            <div className="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-solid fa-truck-fast stat-icon fa-2x "></i>
               <h2 className="site-heading">250</h2>
@@ -253,7 +253,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+            <div className="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-solid fa-face-smile stat-icon fa-2x "></i>
               <h2 className="site-heading">1000</h2>
@@ -261,7 +261,7 @@ function Home() {
               </div>
             </div>
 
-            <div className="col-md-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+            <div className="col-md-3 col-6 mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               <div className="stat-content text-center">
               <i class="fa-solid fa-briefcase stat-icon  fa-2x mb-2"></i>
               <h2 className="site-heading">20</h2>

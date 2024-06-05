@@ -29,7 +29,7 @@ function About() {
               <h6 className="subtitle">
               Know Our Story
               </h6>
-              <h2 className="site-heading mb-3">Empowering Tomorrow With GoSolar </h2>
+              <h2 className="site-heading mb-3">Empowering Tomorrow With PEES Solar </h2>
               
               {/* <Link to="get-a-quote"><button className="website-button" style={{backgroundColor: 'var(--secondary-color)'}}>Get A Quote</button></Link> */}
             </div>
@@ -41,8 +41,8 @@ function About() {
         <div className="container py-5">
           <div className="row g-5 d-flex align-items-center">
             <div className="col-md-7">
-              <h5 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Leading The Solar Revolution</h5>
-              <h2 className="site-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
+              <h6 className="subtitle" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Leading The Solar Revolution</h6>
+              <h2 className="regular-heading" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 We Brighten Your Future!
               </h2>
               <p data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">As pioneers in sustainable energy solutions, we are dedicated to illuminating the path towards a brighter, cleaner future. With a focus on innovation and environmental stewardship, we specialize in designing and implementing cutting-edge solar installations for homes, businesses, and communities. <br /><br />Our passion for renewable energy drives us to deliver reliable, cost-effective solutions that not only reduce carbon footprints but also empower our customers to take control of their energy needs. Join us in harnessing the power of the sun and shaping a sustainable tomorrow for generations to come.</p> <br />
@@ -61,7 +61,7 @@ function About() {
                 </div>
                 <div className="col-md-6 col-12  align-items-center" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                   <div className='d-flex align-items-center stat-content'>
-                  <i class="fa-solid fa-lightbulb stat-icon fa-3x"></i>&nbsp;
+                  <i class="fa-solid fa-briefcase stat-icon fa-3x"></i>&nbsp;
                 <h5 className='fw-bold'>Dedicated Support</h5>
                   </div><br />
                   <ul style={{listStyle: 'none'}}>
@@ -148,7 +148,7 @@ function About() {
                 <div className="p-5">
                   <div className="section-header mb-4">
                     <h6 className='subtitle text-white' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Uncover Solar Solutions</h6>
-                    <h2 className="site-heading text-white" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Unlocking Solar's Potential For Your Home Or Business</h2><br />
+                    <h2 className="regular-heading text-white" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Unlocking Solar's Potential For Your Home Or Business</h2><br />
                     <p className='text-white' data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">Unlock the potential of solar energy and its transformative benefits. Explore common questions about solar system installation and its advantages below.</p>
                   </div>
                   <div className="accordion" id="accordionPanelsStayOpenExample" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">

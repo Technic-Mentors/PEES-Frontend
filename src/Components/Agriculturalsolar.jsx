@@ -72,6 +72,7 @@ function Agriculturalsolar() {
         <div className="container">
           <div className="row d-flex align-items-center">
             <div className="col-md-6">
+              <h6 className="subtitle">Solar Energy For Agriculture</h6>
               <h2 className="regular-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
                 Solar Tube Well Systems: Dependable And Sustainable
               </h2>
@@ -79,7 +80,7 @@ function Agriculturalsolar() {
                 Addressing water scarcity and the exorbitant costs associated
                 with diesel and petrol for groundwater extraction poses a
                 significant challenge for farmers in maintaining adequate
-                irrigation for their lands. However, our team at [Company Name]
+                irrigation for their lands. However, our team at PEES Solar
                 specializes in implementing tailored solar tube well solutions
                 to address these issues. Our solar tube well systems are
                 accompanied by two years of comprehensive after-sales service
@@ -121,6 +122,7 @@ function Agriculturalsolar() {
               />
             </div>
             <div className="col-md-6">
+              <h6 className="subtitle">Explore Our</h6>
               <h2 className="regular-heading mb-3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1200">
               Farm-Based Solar PV Solutions
               </h2>
