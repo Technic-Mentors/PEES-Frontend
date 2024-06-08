@@ -62,7 +62,7 @@ function Home() {
                     fontWeight: "600",
                   }}
                 >
-                  24/7 Customer Support: +92300 12 34 567
+                  24/7 Customer Support: +92 300 555 48 06
                 </p>
               </div>
               <Link to='/contact'>

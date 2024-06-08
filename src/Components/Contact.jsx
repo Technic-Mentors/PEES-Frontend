@@ -138,7 +138,7 @@ function Contact() {
             </div>
 
             <div className="col-md-5" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1200">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d864479.7390796565!2d73.03124464687497!3d32.1806728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391f290aaac0bc1d%3A0x5fe9f2902e3ba73b!2sTechnic%20Mentors!5e0!3m2!1sen!2s!4v1713428295002!5m2!1sen!2s" width="500" height="450" style={{border:"0"}} title='Location' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13616.476308141146!2d74.24130233965214!3d31.43838859587764!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391901bd160d9003%3A0x558b023520d11e45!2sWAPDA%20Town%20Wapda%20Town%20Phase%202%20WAPDA%20Town%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1717823960546!5m2!1sen!2s" width="500" height="450" style={{border:"0"}} title='Location' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
