@@ -241,7 +241,7 @@ function Home() {
               <div className="stat-content text-center">
               <i class="fa-regular fa-handshake stat-icon fa-2x n mb-2"></i>
               <h2 className="site-heading">325</h2>
-              <h6 className="fw-bold">Projects Completed</h6>
+              <h6 className="fw-bold"> Completed Projects</h6>
               </div>
             </div>
 
